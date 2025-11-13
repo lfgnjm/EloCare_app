@@ -29,6 +29,6 @@ export const routes: Route[] = [
     id: "transporte",
     pathname: "/transporte",
     title: "Transporte",
-    enabled: false
+    enabled: true
   }
 ]

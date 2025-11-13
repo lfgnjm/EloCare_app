@@ -9,9 +9,6 @@ export default function Header() {
   const pathname = usePathname();
   const [currRoute] = routes.filter((route) => pathname.startsWith(route.pathname));
 
-  console.log("Current Route:", routes, pathname);
-
-
   return (
     <div className="flex align-middle items-center justify-between">
       <div className="flex align-middle items-center gap-2">
